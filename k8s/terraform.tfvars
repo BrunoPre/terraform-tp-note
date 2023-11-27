@@ -1,0 +1,5 @@
+path_to_repo = "./../example-voting-app"
+region     = "europe-west9"
+zone       = "europe-west9-a"
+json_key_filename   = "gcp-json-key.json"
+project_id = "tuto-terraform-b21preka"

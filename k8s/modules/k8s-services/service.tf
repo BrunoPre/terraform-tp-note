@@ -15,7 +15,7 @@ variable "ports" {
     object({
       port = number
       target_port = number
-      node_port = optional(number)
+      node_port = optional(number) // if not specified, `null` is assigned --> node_port is ignored
       name = string
     })
   )
